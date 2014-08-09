@@ -1,0 +1,22 @@
+Host node1
+  HostName 127.0.0.1
+  User vagrant
+  Port 2001
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /Users/cutmail/.vagrant.d/insecure_private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+Host node2
+  HostName 127.0.0.1
+  User vagrant
+  Port 2022
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /Users/cutmail/.vagrant.d/insecure_private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
